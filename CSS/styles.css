@@ -1,0 +1,44 @@
+table {
+    display: inline-table;
+    box-sizing: border-box;
+    padding: 0px;
+    border: double;
+    border-width: thick;
+}
+.tabla-inline{
+    display:flexbox;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.logo{
+    display:flexbox;
+    box-sizing: border-box;
+    min-width: 10px;
+    max-width: 220px;
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    display: flexbox;
+    box-sizing: border-box;
+    min-width: 10px;
+    max-width: 250px;
+    max-height: 100px;
+    list-style:none;
+    line-height: 0.5;
+    padding-right: 5px;
+}
+ul{
+    margin: 0px;
+	padding: 0px;
+}
+h1{
+    font-style: italic;
+    font-size: calc(11px + 2vmin);
+    font-weight:600;
+}
+h2{
+  font-size: calc(7px + 2vmin);
+  font-weight: 400;
+}
